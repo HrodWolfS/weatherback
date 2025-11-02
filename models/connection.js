@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const connectionString =
+const connectionString = process.env.CONNECTION_STRING ||
   "mongodb+srv://stempfelrodolphe_db_user:5GvbqdnpgeWPS2ZT@cities.s7gpapg.mongodb.net/weatherapp";
 
 mongoose
